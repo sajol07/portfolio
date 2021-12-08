@@ -1,0 +1,59 @@
+.contactme{
+    background-color: #0f1f43;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+}
+.title{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+h1{
+   color: deeppink;
+   font-size: 44px;
+   font-family: "Popins SemiBold";
+}
+.form-parent{
+    /* box-shadow:30px 30px 30px 30px blue ; */
+    padding: 20px 20px ;
+} 
+.form-parent:hover{
+
+    padding-left: 18px;
+    transform: scale(1.1);
+    transition: ease-in;
+    transition-duration: 0.5s;
+    /* transition: width 2s, height 4s; */
+    box-shadow:20px 20px 10px 20px rgb(43, 78, 173) ;
+} 
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.form input, textarea{
+    width: 500px;
+}
+.form button {
+    color: white;
+    border: 1px solid white;
+    margin-top: 20px;
+    padding: 15px 15px;
+    background-color: rgb(233, 58, 58);
+    border-radius: 25px;
+}
+.form button:hover {
+    border: 1px solid white;
+    color: white;
+    padding: 15px 15px;
+    background-color: #e91e63;
+}
+
+

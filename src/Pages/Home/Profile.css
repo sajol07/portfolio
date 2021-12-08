@@ -1,0 +1,221 @@
+.profile-container{
+  
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    height: 10%;
+    min-height: fit-content;
+    background-image: url("https://t4.ftcdn.net/jpg/02/76/08/07/360_F_276080724_hltnCyDjcqAyRtLzDYo3T2jXbBtCD7fl.jpg");
+    /* background-color: #26262b; */
+    background-size: cover;
+
+}
+
+.profile-parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.profile-details-name{
+font-size: 48px;
+font-family: "Popins SemiBold";
+
+}
+.profile-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+
+}
+.profile-details-role h1{
+   font-size: 48px;
+   font-family: cursive;
+   
+
+}
+
+.primary-text{
+    color: white;
+    
+}
+.primary-text h1{
+    font-size: 48px;
+    
+}
+
+.highlighted-text{
+    /* color: #ff5823; */
+    color: #e91e63;
+}
+.profile-role-tag{
+    font-size: 24px;
+    margin: 5px 0 0 0 ;
+    font-family: "popins Light";
+}
+.profile-options .highlighted-btn:hover{
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111111;
+}
+.profile-picture{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    box-shadow:  0 1px 0 0 white;
+    border-radius: 60%;
+    height: 360px;
+    width: 360px;
+    margin: 0 0px 0px 300px;
+}
+.profile-bg{
+   height: 90%;
+   width: 100%;
+   background-image: url("../../img/profile.png");
+   /* background-size: cover; */
+   background-repeat: no-repeat;
+   background-position: center;
+  padding-top: 200px;
+}
+.profile-bg:hover{
+   transform: scale(1.07);
+   transition: 1s ease-in-out;
+  
+}
+.colz{
+    padding-top: 20px;
+}
+
+.colz .colz-icon i{
+    color: white;
+    padding: 15px;
+
+    padding-left: 0;
+}
+.colz .colz-icon i:hover{
+    transform: scale(1.5);
+}
+.btn{
+
+    border-radius: 50px;
+    padding: 14px, 0;
+    width: 150px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Poppins SemiBold";
+}
+.btn:active{
+    transform: translateY(3px);
+}
+.primary-btn{
+    /* color: var(--white); */
+    color: white;
+    border: 2px solid whitesmoke;
+    font-size: 12px;
+    background-color: #1f2235;
+}
+.primary-btn:hover{
+    color: white;
+    border: 2px solid aliceblue;
+    background-color: #1f2235;
+    /* border: 2px solid #ff5823; */
+    border: 2px solid #e91e63;
+}
+.highlighted-btn{
+    border-radius: 50px;
+    padding: 8px 20px;
+    margin: 0 0 0 28px;
+
+
+    /* margin: 30px 30px; */
+    width: 150px;
+    color: white;
+    font-size: 15px;
+    /* background-color: #ff5823; */
+    background-color: #e91e63;
+    text-decoration: none;
+    
+
+}
+
+
+
+
+
+
+
+
+/* -----------------------------
+------------Media Query---------
+------------------------------ */
+@media screen and (max-width: 1110px) {
+    .profile-picture{
+        margin: 0 0px 0 80px;
+    }
+    .profile-details-name{
+        font-size: 20px;
+    }
+    .profile-details-role .primary-text{
+        font-size: 12px;
+    }
+    .profile-options .btn{
+        width: 120px;
+        padding: 11px 0 ;
+        z-index: 700;
+    }
+}
+
+
+
+@media screen and (max-width: 910px){
+    .profile-picture{
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 810px){
+    .profile-picture{
+        margin: 0 !important ;
+    }
+    .profile-parent{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .profile-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-details{
+        margin: 25px 0 0 0;
+    }
+    .profile-options .highlighted-btn{
+        margin: 0 !important;
+    }
+    .profile-options, .profile-details-role{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .profile-picture{
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+    .profile-details{
+        width: 90%;
+    }
+    .profile-options .highlighted-btn{
+        margin: 0 !important;
+    }
+    .profile-options, .profile-details-role{
+        text-align: center;
+    }
+}

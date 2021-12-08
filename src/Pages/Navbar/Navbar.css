@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.navbar{
+
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    background: #e91e63;
+    font-family: 'ubuntu', 'sans-serif';
+
+
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    text-decoration: none;
+}
